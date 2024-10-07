@@ -1,0 +1,43 @@
+.body{
+padding: top 7px; ;
+}
+
+
+.header{
+   position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 10px;
+    z-index: 3;
+    text-align: center;
+
+}
+
+.main{
+    position: sticky;
+    width: 60%;
+    margin: 20px auto;
+    background-color:#E0E0E0 ;
+    padding: 15px;
+}
+
+.main.sidebar{
+width: 30%;
+margin: 20px auto;
+background-color: #D0D0D0;
+padding: 15px;
+position: relative;
+right: 0%;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #C0C0C0;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
